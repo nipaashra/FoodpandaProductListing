@@ -41,7 +41,7 @@ class CustomUIButton: UIButton {
         self.layer.masksToBounds = true
         self.layoutIfNeeded()
         self.layer.backgroundColor = UIColor.lightGray.cgColor
-        self.layer.shadowColor =  UIColor.black.cgColor
+        self.layer.shadowColor =  Colors.shadowColor.cgColor
         self.layer.borderWidth = 0.1
         self.layoutIfNeeded()
     }

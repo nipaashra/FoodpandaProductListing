@@ -49,17 +49,17 @@ class ProductsCollectionViewCell: UICollectionViewCell {
     }
     @IBAction func btnLessClicked(_ sender: UIButton) {
         if qty > 0 {
-            qty = qty - 1
+            qty -= 1
         }
-        btnLess.isEnabled = qty > 0
-        self.btnQty.text = String(describing: qty)
+//        btnLess.isEnabled = qty > 0
+//        self.btnQty.text = String(describing: qty)
         self.delegate?.updateCartItem(indexRow: sender.tag, qty: qty)
     }
     
     @IBAction func btnAddClicked(_ sender: UIButton) {
-        qty = qty + 1
-        btnLess.isEnabled = qty > 0
-        self.btnQty.text = String(describing: qty)
+        qty += 1
+//        btnLess.isEnabled = qty > 0
+//        self.btnQty.text = String(describing: qty)
         self.delegate?.updateCartItem(indexRow: sender.tag, qty: qty)
     }
    
