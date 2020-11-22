@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza",
+    "price": 15,
+    "image_url": "https://cdn.shopify.com/s/files/1/0248/2411/9343/products/Pepperoni_1024x1024.png?v=1574684715",
+    "stockAmount": 5,
+    "max_per_order": 2
+  },
+  {
+    "id": 2,
+    "name": "Burgur",
+    "price": 5,
+    "image_url": "https://just-eat-prod-sg-res.cloudinary.com/image/upload/c_fill,d_au:cuisines:burgers-8.jpg,f_auto,q_auto,w_500/v1/au/restaurants/5302378.jpg",
+    "stockAmount": 5,
+    "max_per_order": 7
+  },
+  {
+    "id": 3,
+    "name": "Sandwiche",
+    "price": 6,
+    "image_url": "https://prods3.imgix.net/images/articles/2017_04/Feature-restaurant-butcher-bakery-shops2.jpg?auto=format%2Ccompress&dpr=2.63&ixjsv=2.2.3&q=38&w=370",
+    "stockAmount": 0,
+    "max_per_order": 7
+  },
+  {
+    "id": 4,
+    "name": "Borito",
+    "price": 7,
+    "image_url": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/15/smothered-mexican-chicken-burritos-3.jpg",
+    "stockAmount": -1,
+    "max_per_order": 7
+  },
+  {
+    "id": 5,
+    "name": "Kebab",
+    "price": 7,
+    "image_url": "https://www.thespruceeats.com/thmb/5Jmif7zE7BILu0y4f1hpBDDBtWU=/735x0/kefta-kebab-recipe-moroccan-ground-beef-2394668-8_preview-5b1ee589eb97de0036721a41.jpeg",
+    "stockAmount": 6,
+    "max_per_order": -1
+  },
+  {
+    "id": 6,
+    "name": "Chiken Briyani",
+    "price": 25,
+    "image_url": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg",
+    "stockAmount": -1,
+    "max_per_order": -1
+  },
+  {
+    "id": 6,
+    "name": "Fried Chiken",
+    "price": 26,
+    "image_url": "https://static.toiimg.com/thumb/61589069.cms?width=1200&height=900",
+    "stockAmount": 6,
+    "max_per_order": 6
+  }
+]

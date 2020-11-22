@@ -1,0 +1,6 @@
+framework module Pods_foodpanda_product_listing {
+  umbrella header "Pods-foodpanda-product-listing-umbrella.h"
+
+  export *
+  module * { export * }
+}

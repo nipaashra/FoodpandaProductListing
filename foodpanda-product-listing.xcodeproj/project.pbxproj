@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A2F461AEEB36F90B665022 /* Pods_foodpanda_product_listing_foodpanda_product_listingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F090C97335074F866BA4C77D /* Pods_foodpanda_product_listing_foodpanda_product_listingUITests.framework */; };
+		18686C71256941CA00BE19B8 /* ProductCart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18686C6F256941CA00BE19B8 /* ProductCart.xcdatamodeld */; };
+		18686C772569468000BE19B8 /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C762569468000BE19B8 /* ProductsCollectionViewCell.swift */; };
+		18686C7A256957AB00BE19B8 /* NAUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C79256957AB00BE19B8 /* NAUIViewExtension.swift */; };
+		18686C7D25695B4C00BE19B8 /* CustomUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C7C25695B4C00BE19B8 /* CustomUIButton.swift */; };
+		18686C8125695CDD00BE19B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C8025695CDD00BE19B8 /* ViewController.swift */; };
+		18686C83256961DB00BE19B8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C82256961DA00BE19B8 /* Product.swift */; };
+		18686C862569658C00BE19B8 /* ProductsListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C852569658C00BE19B8 /* ProductsListResponse.swift */; };
+		18686C8A25696F8300BE19B8 /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = 18686C8925696F8300BE19B8 /* Products.json */; };
+		18686C8C256972BC00BE19B8 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C8B256972BC00BE19B8 /* Cart.swift */; };
+		18686C8E2569731400BE19B8 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C8D2569731400BE19B8 /* CartItem.swift */; };
+		45C647907F7AA107B11A0775 /* Pods_foodpanda_product_listingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAE53FEB75A349B03D7273A /* Pods_foodpanda_product_listingTests.framework */; };
+		99C116912547C6EA00E14369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C116902547C6EA00E14369 /* AppDelegate.swift */; };
+		99C116932547C6EA00E14369 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C116922547C6EA00E14369 /* SceneDelegate.swift */; };
+		99C116982547C6EA00E14369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C116962547C6EA00E14369 /* Main.storyboard */; };
+		99C1169A2547C6EC00E14369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C116992547C6EC00E14369 /* Assets.xcassets */; };
+		99C1169D2547C6EC00E14369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C1169B2547C6EC00E14369 /* LaunchScreen.storyboard */; };
+		99C116A82547C6EC00E14369 /* foodpanda_product_listingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C116A72547C6EC00E14369 /* foodpanda_product_listingTests.swift */; };
+		99C116B32547C6EC00E14369 /* foodpanda_product_listingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C116B22547C6EC00E14369 /* foodpanda_product_listingUITests.swift */; };
+		F96E6D57DFF00B745DD83D7F /* Pods_foodpanda_product_listing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907D0B2BE9D22466DD528378 /* Pods_foodpanda_product_listing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99C116A42547C6EC00E14369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C116852547C6EA00E14369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C1168C2547C6EA00E14369;
+			remoteInfo = "foodpanda-product-listing";
+		};
+		99C116AF2547C6EC00E14369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C116852547C6EA00E14369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C1168C2547C6EA00E14369;
+			remoteInfo = "foodpanda-product-listing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18686C70256941CA00BE19B8 /* ProductCart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductCart.xcdatamodel; sourceTree = "<group>"; };
+		18686C762569468000BE19B8 /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		18686C79256957AB00BE19B8 /* NAUIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAUIViewExtension.swift; sourceTree = "<group>"; };
+		18686C7C25695B4C00BE19B8 /* CustomUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIButton.swift; sourceTree = "<group>"; };
+		18686C8025695CDD00BE19B8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18686C82256961DA00BE19B8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		18686C852569658C00BE19B8 /* ProductsListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListResponse.swift; sourceTree = "<group>"; };
+		18686C8925696F8300BE19B8 /* Products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
+		18686C8B256972BC00BE19B8 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		18686C8D2569731400BE19B8 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		18FCD3626525CBB03A27E0C4 /* Pods-foodpanda-product-listing-foodpanda-product-listingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodpanda-product-listing-foodpanda-product-listingUITests.debug.xcconfig"; path = "Target Support Files/Pods-foodpanda-product-listing-foodpanda-product-listingUITests/Pods-foodpanda-product-listing-foodpanda-product-listingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53EA77FB3B095E851D3D046B /* Pods-foodpanda-product-listing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodpanda-product-listing.release.xcconfig"; path = "Target Support Files/Pods-foodpanda-product-listing/Pods-foodpanda-product-listing.release.xcconfig"; sourceTree = "<group>"; };
+		7EAE53FEB75A349B03D7273A /* Pods_foodpanda_product_listingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodpanda_product_listingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB6B6E3E8BEE923210C861A /* Pods-foodpanda-product-listing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodpanda-product-listing.debug.xcconfig"; path = "Target Support Files/Pods-foodpanda-product-listing/Pods-foodpanda-product-listing.debug.xcconfig"; sourceTree = "<group>"; };
+		907D0B2BE9D22466DD528378 /* Pods_foodpanda_product_listing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodpanda_product_listing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AA293D82F0C2870985B616 /* Pods-foodpanda-product-listing-foodpanda-product-listingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodpanda-product-listing-foodpanda-product-listingUITests.release.xcconfig"; path = "Target Support Files/Pods-foodpanda-product-listing-foodpanda-product-listingUITests/Pods-foodpanda-product-listing-foodpanda-product-listingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99C1168D2547C6EA00E14369 /* foodpanda-product-listing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "foodpanda-product-listing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C116902547C6EA00E14369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99C116922547C6EA00E14369 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99C116972547C6EA00E14369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99C116992547C6EC00E14369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99C1169C2547C6EC00E14369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99C1169E2547C6EC00E14369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C116A32547C6EC00E14369 /* foodpanda-product-listingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "foodpanda-product-listingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C116A72547C6EC00E14369 /* foodpanda_product_listingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodpanda_product_listingTests.swift; sourceTree = "<group>"; };
+		99C116A92547C6EC00E14369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C116AE2547C6EC00E14369 /* foodpanda-product-listingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "foodpanda-product-listingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C116B22547C6EC00E14369 /* foodpanda_product_listingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodpanda_product_listingUITests.swift; sourceTree = "<group>"; };
+		99C116B42547C6EC00E14369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C116C02547D9CF00E14369 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		99C116C2254822F400E14369 /* ui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ui.png; sourceTree = "<group>"; };
+		B1059B9B60CE2D4058576B3C /* Pods-foodpanda-product-listingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodpanda-product-listingTests.debug.xcconfig"; path = "Target Support Files/Pods-foodpanda-product-listingTests/Pods-foodpanda-product-listingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2105A8929AF96813CB507B3 /* Pods-foodpanda-product-listingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodpanda-product-listingTests.release.xcconfig"; path = "Target Support Files/Pods-foodpanda-product-listingTests/Pods-foodpanda-product-listingTests.release.xcconfig"; sourceTree = "<group>"; };
+		F090C97335074F866BA4C77D /* Pods_foodpanda_product_listing_foodpanda_product_listingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodpanda_product_listing_foodpanda_product_listingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99C1168A2547C6EA00E14369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96E6D57DFF00B745DD83D7F /* Pods_foodpanda_product_listing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C116A02547C6EC00E14369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C647907F7AA107B11A0775 /* Pods_foodpanda_product_listingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C116AB2547C6EC00E14369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A2F461AEEB36F90B665022 /* Pods_foodpanda_product_listing_foodpanda_product_listingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18686C722569463E00BE19B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18686C762569468000BE19B8 /* ProductsCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18686C782569577A00BE19B8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18686C79256957AB00BE19B8 /* NAUIViewExtension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18686C7B25695B3B00BE19B8 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				18686C7C25695B4C00BE19B8 /* CustomUIButton.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		18686C7E25695CBF00BE19B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18686C82256961DA00BE19B8 /* Product.swift */,
+				18686C8B256972BC00BE19B8 /* Cart.swift */,
+				18686C8D2569731400BE19B8 /* CartItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18686C7F25695CDD00BE19B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18686C8025695CDD00BE19B8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18686C842569654D00BE19B8 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				18686C852569658C00BE19B8 /* ProductsListResponse.swift */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		1F3310D332800539B64FC863 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				907D0B2BE9D22466DD528378 /* Pods_foodpanda_product_listing.framework */,
+				F090C97335074F866BA4C77D /* Pods_foodpanda_product_listing_foodpanda_product_listingUITests.framework */,
+				7EAE53FEB75A349B03D7273A /* Pods_foodpanda_product_listingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99C116842547C6EA00E14369 = {
+			isa = PBXGroup;
+			children = (
+				99C116C2254822F400E14369 /* ui.png */,
+				18686C8925696F8300BE19B8 /* Products.json */,
+				99C116C02547D9CF00E14369 /* README.md */,
+				99C1168F2547C6EA00E14369 /* foodpanda-product-listing */,
+				99C116A62547C6EC00E14369 /* foodpanda-product-listingTests */,
+				99C116B12547C6EC00E14369 /* foodpanda-product-listingUITests */,
+				99C1168E2547C6EA00E14369 /* Products */,
+				EF3BDA752B140C98EC41468F /* Pods */,
+				1F3310D332800539B64FC863 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99C1168E2547C6EA00E14369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C1168D2547C6EA00E14369 /* foodpanda-product-listing.app */,
+				99C116A32547C6EC00E14369 /* foodpanda-product-listingTests.xctest */,
+				99C116AE2547C6EC00E14369 /* foodpanda-product-listingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99C1168F2547C6EA00E14369 /* foodpanda-product-listing */ = {
+			isa = PBXGroup;
+			children = (
+				18686C842569654D00BE19B8 /* HelperClass */,
+				18686C7E25695CBF00BE19B8 /* Model */,
+				18686C722569463E00BE19B8 /* View */,
+				18686C7F25695CDD00BE19B8 /* Controller */,
+				18686C7B25695B3B00BE19B8 /* CustomUI */,
+				18686C782569577A00BE19B8 /* Category */,
+				99C116902547C6EA00E14369 /* AppDelegate.swift */,
+				99C116922547C6EA00E14369 /* SceneDelegate.swift */,
+				99C116962547C6EA00E14369 /* Main.storyboard */,
+				99C116992547C6EC00E14369 /* Assets.xcassets */,
+				99C1169B2547C6EC00E14369 /* LaunchScreen.storyboard */,
+				99C1169E2547C6EC00E14369 /* Info.plist */,
+				18686C6F256941CA00BE19B8 /* ProductCart.xcdatamodeld */,
+			);
+			path = "foodpanda-product-listing";
+			sourceTree = "<group>";
+		};
+		99C116A62547C6EC00E14369 /* foodpanda-product-listingTests */ = {
+			isa = PBXGroup;
+			children = (
+				99C116A72547C6EC00E14369 /* foodpanda_product_listingTests.swift */,
+				99C116A92547C6EC00E14369 /* Info.plist */,
+			);
+			path = "foodpanda-product-listingTests";
+			sourceTree = "<group>";
+		};
+		99C116B12547C6EC00E14369 /* foodpanda-product-listingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99C116B22547C6EC00E14369 /* foodpanda_product_listingUITests.swift */,
+				99C116B42547C6EC00E14369 /* Info.plist */,
+			);
+			path = "foodpanda-product-listingUITests";
+			sourceTree = "<group>";
+		};
+		EF3BDA752B140C98EC41468F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6B6E3E8BEE923210C861A /* Pods-foodpanda-product-listing.debug.xcconfig */,
+				53EA77FB3B095E851D3D046B /* Pods-foodpanda-product-listing.release.xcconfig */,
+				18FCD3626525CBB03A27E0C4 /* Pods-foodpanda-product-listing-foodpanda-product-listingUITests.debug.xcconfig */,
+				98AA293D82F0C2870985B616 /* Pods-foodpanda-product-listing-foodpanda-product-listingUITests.release.xcconfig */,
+				B1059B9B60CE2D4058576B3C /* Pods-foodpanda-product-listingTests.debug.xcconfig */,
+				B2105A8929AF96813CB507B3 /* Pods-foodpanda-product-listingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99C1168C2547C6EA00E14369 /* foodpanda-product-listing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C116B72547C6EC00E14369 /* Build configuration list for PBXNativeTarget "foodpanda-product-listing" */;
+			buildPhases = (
+				688FFE693D6AE4E21140F667 /* [CP] Check Pods Manifest.lock */,
+				99C116892547C6EA00E14369 /* Sources */,
+				99C1168A2547C6EA00E14369 /* Frameworks */,
+				99C1168B2547C6EA00E14369 /* Resources */,
+				EBCF738D22CFA713DD7355E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "foodpanda-product-listing";
+			productName = "foodpanda-product-listing";
+			productReference = 99C1168D2547C6EA00E14369 /* foodpanda-product-listing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99C116A22547C6EC00E14369 /* foodpanda-product-listingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C116BA2547C6EC00E14369 /* Build configuration list for PBXNativeTarget "foodpanda-product-listingTests" */;
+			buildPhases = (
+				A1EA257A84888D510C101A0D /* [CP] Check Pods Manifest.lock */,
+				99C1169F2547C6EC00E14369 /* Sources */,
+				99C116A02547C6EC00E14369 /* Frameworks */,
+				99C116A12547C6EC00E14369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C116A52547C6EC00E14369 /* PBXTargetDependency */,
+			);
+			name = "foodpanda-product-listingTests";
+			productName = "foodpanda-product-listingTests";
+			productReference = 99C116A32547C6EC00E14369 /* foodpanda-product-listingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99C116AD2547C6EC00E14369 /* foodpanda-product-listingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C116BD2547C6EC00E14369 /* Build configuration list for PBXNativeTarget "foodpanda-product-listingUITests" */;
+			buildPhases = (
+				11ACB165A8126EF8624E75DB /* [CP] Check Pods Manifest.lock */,
+				99C116AA2547C6EC00E14369 /* Sources */,
+				99C116AB2547C6EC00E14369 /* Frameworks */,
+				99C116AC2547C6EC00E14369 /* Resources */,
+				E339F4319F0BC261414A9CBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C116B02547C6EC00E14369 /* PBXTargetDependency */,
+			);
+			name = "foodpanda-product-listingUITests";
+			productName = "foodpanda-product-listingUITests";
+			productReference = 99C116AE2547C6EC00E14369 /* foodpanda-product-listingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99C116852547C6EA00E14369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = foodpanda;
+				TargetAttributes = {
+					99C1168C2547C6EA00E14369 = {
+						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1120;
+					};
+					99C116A22547C6EC00E14369 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 99C1168C2547C6EA00E14369;
+					};
+					99C116AD2547C6EC00E14369 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 99C1168C2547C6EA00E14369;
+					};
+				};
+			};
+			buildConfigurationList = 99C116882547C6EA00E14369 /* Build configuration list for PBXProject "foodpanda-product-listing" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99C116842547C6EA00E14369;
+			productRefGroup = 99C1168E2547C6EA00E14369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99C1168C2547C6EA00E14369 /* foodpanda-product-listing */,
+				99C116A22547C6EC00E14369 /* foodpanda-product-listingTests */,
+				99C116AD2547C6EC00E14369 /* foodpanda-product-listingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C1168B2547C6EA00E14369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18686C8A25696F8300BE19B8 /* Products.json in Resources */,
+				99C1169D2547C6EC00E14369 /* LaunchScreen.storyboard in Resources */,
+				99C1169A2547C6EC00E14369 /* Assets.xcassets in Resources */,
+				99C116982547C6EA00E14369 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C116A12547C6EC00E14369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C116AC2547C6EC00E14369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11ACB165A8126EF8624E75DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodpanda-product-listing-foodpanda-product-listingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		688FFE693D6AE4E21140F667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodpanda-product-listing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1EA257A84888D510C101A0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodpanda-product-listingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E339F4319F0BC261414A9CBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodpanda-product-listing-foodpanda-product-listingUITests/Pods-foodpanda-product-listing-foodpanda-product-listingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodpanda-product-listing-foodpanda-product-listingUITests/Pods-foodpanda-product-listing-foodpanda-product-listingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodpanda-product-listing-foodpanda-product-listingUITests/Pods-foodpanda-product-listing-foodpanda-product-listingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCF738D22CFA713DD7355E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodpanda-product-listing/Pods-foodpanda-product-listing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodpanda-product-listing/Pods-foodpanda-product-listing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodpanda-product-listing/Pods-foodpanda-product-listing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C116892547C6EA00E14369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18686C7D25695B4C00BE19B8 /* CustomUIButton.swift in Sources */,
+				18686C83256961DB00BE19B8 /* Product.swift in Sources */,
+				18686C8E2569731400BE19B8 /* CartItem.swift in Sources */,
+				18686C772569468000BE19B8 /* ProductsCollectionViewCell.swift in Sources */,
+				99C116912547C6EA00E14369 /* AppDelegate.swift in Sources */,
+				18686C7A256957AB00BE19B8 /* NAUIViewExtension.swift in Sources */,
+				18686C8125695CDD00BE19B8 /* ViewController.swift in Sources */,
+				99C116932547C6EA00E14369 /* SceneDelegate.swift in Sources */,
+				18686C8C256972BC00BE19B8 /* Cart.swift in Sources */,
+				18686C862569658C00BE19B8 /* ProductsListResponse.swift in Sources */,
+				18686C71256941CA00BE19B8 /* ProductCart.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C1169F2547C6EC00E14369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C116A82547C6EC00E14369 /* foodpanda_product_listingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C116AA2547C6EC00E14369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C116B32547C6EC00E14369 /* foodpanda_product_listingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99C116A52547C6EC00E14369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C1168C2547C6EA00E14369 /* foodpanda-product-listing */;
+			targetProxy = 99C116A42547C6EC00E14369 /* PBXContainerItemProxy */;
+		};
+		99C116B02547C6EC00E14369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C1168C2547C6EA00E14369 /* foodpanda-product-listing */;
+			targetProxy = 99C116AF2547C6EC00E14369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99C116962547C6EA00E14369 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C116972547C6EA00E14369 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99C1169B2547C6EC00E14369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C1169C2547C6EC00E14369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99C116B52547C6EC00E14369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99C116B62547C6EC00E14369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99C116B82547C6EC00E14369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB6B6E3E8BEE923210C861A /* Pods-foodpanda-product-listing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foodpanda-product-listing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.foodpanda-product-listing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99C116B92547C6EC00E14369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53EA77FB3B095E851D3D046B /* Pods-foodpanda-product-listing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foodpanda-product-listing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.foodpanda-product-listing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		99C116BB2547C6EC00E14369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1059B9B60CE2D4058576B3C /* Pods-foodpanda-product-listingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foodpanda-product-listingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.foodpanda-product-listingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodpanda-product-listing.app/foodpanda-product-listing";
+			};
+			name = Debug;
+		};
+		99C116BC2547C6EC00E14369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2105A8929AF96813CB507B3 /* Pods-foodpanda-product-listingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foodpanda-product-listingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.foodpanda-product-listingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodpanda-product-listing.app/foodpanda-product-listing";
+			};
+			name = Release;
+		};
+		99C116BE2547C6EC00E14369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FCD3626525CBB03A27E0C4 /* Pods-foodpanda-product-listing-foodpanda-product-listingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foodpanda-product-listingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.foodpanda-product-listingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "foodpanda-product-listing";
+			};
+			name = Debug;
+		};
+		99C116BF2547C6EC00E14369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AA293D82F0C2870985B616 /* Pods-foodpanda-product-listing-foodpanda-product-listingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foodpanda-product-listingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.foodpanda-product-listingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "foodpanda-product-listing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99C116882547C6EA00E14369 /* Build configuration list for PBXProject "foodpanda-product-listing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C116B52547C6EC00E14369 /* Debug */,
+				99C116B62547C6EC00E14369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C116B72547C6EC00E14369 /* Build configuration list for PBXNativeTarget "foodpanda-product-listing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C116B82547C6EC00E14369 /* Debug */,
+				99C116B92547C6EC00E14369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C116BA2547C6EC00E14369 /* Build configuration list for PBXNativeTarget "foodpanda-product-listingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C116BB2547C6EC00E14369 /* Debug */,
+				99C116BC2547C6EC00E14369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C116BD2547C6EC00E14369 /* Build configuration list for PBXNativeTarget "foodpanda-product-listingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C116BE2547C6EC00E14369 /* Debug */,
+				99C116BF2547C6EC00E14369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18686C6F256941CA00BE19B8 /* ProductCart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18686C70256941CA00BE19B8 /* ProductCart.xcdatamodel */,
+			);
+			currentVersion = 18686C70256941CA00BE19B8 /* ProductCart.xcdatamodel */;
+			path = ProductCart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99C116852547C6EA00E14369 /* Project object */;
+}
