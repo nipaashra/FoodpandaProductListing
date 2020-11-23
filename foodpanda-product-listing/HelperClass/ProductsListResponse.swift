@@ -7,9 +7,9 @@
 //
 
 import Foundation
+import UIKit
 
 class ProductsListResponse {
-    
     func getAllProductsList() -> [Product]{
         var products:[Product] = []
         if let path = Bundle.main.path(forResource: "Products", ofType: "json") {
@@ -19,11 +19,15 @@ class ProductsListResponse {
                 products = try! decoder.decode([Product].self, from: data)
             } catch {
                 // handle error
+                let alert = UIAlertController(title: APPNAME, message: "Unable to get product list \nPlease try again!", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                let window = UIApplication.shared.windows.last
+                window?.rootViewController?.present(alert, animated: true, completion: nil)
             }
         }
         return products
     }
-
 }
+
 
 

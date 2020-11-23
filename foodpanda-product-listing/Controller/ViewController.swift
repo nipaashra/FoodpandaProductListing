@@ -35,11 +35,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
         // Do any additional setup after loading the view.
         products = ProductsListResponse().getAllProductsList()
         // User should not see the product with stock_amount equal to zero
         products = products.filter{$0.stockAmount != 0}
-
+        self.collectionView.reloadData()
     }
 }
 // MARK:- UICollectionView Delegate and DataSource
