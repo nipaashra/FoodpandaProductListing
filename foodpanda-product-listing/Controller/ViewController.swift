@@ -28,7 +28,6 @@ enum ErrorMessageType{
 class ViewController: UIViewController {
   
     @IBOutlet weak var collectionView: UICollectionView!
-    
     @IBOutlet weak var btnTotalPrice: CustomUIButton!
     fileprivate var products:[Product] = []
     fileprivate var cart: Cart? = nil
@@ -42,9 +41,9 @@ class ViewController: UIViewController {
         products = products.filter{$0.stockAmount != 0}
 
     }
-
-
 }
+// MARK:- UICollectionView Delegate and DataSource
+
 extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return products.count
@@ -66,8 +65,7 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
-
-    
+// MARK:- Add cart item delegate
 extension ViewController: ProductCartItemDelegate {
     
     // MARK: - CartItemDelegate
@@ -99,14 +97,14 @@ extension ViewController: ProductCartItemDelegate {
                     guard let total = cart?.total else { return }
                     guard let totalQty = cart?.totalQty else { return }
 
-                    self.btnTotalPrice.setTitle(String(format: "Total qty:%d   Total price: $%.2f", totalQty,total), for: .normal)
+                    self.btnTotalPrice.setTitle(String(format: "Total qty: %d   Total price: $%.2f", totalQty,total), for: .normal)
                 }
             }else{
                 //Add cart item with product
                 cart?.updateCart(with: product)
                 guard let total = cart?.total else { return }
                 guard let totalQty = cart?.totalQty else { return }
-                self.btnTotalPrice.setTitle(String(format: "Total qty:%d   Total price: $%.2f", totalQty,total), for: .normal)
+                self.btnTotalPrice.setTitle(String(format: "Total qty: %d   Total price: $%.2f", totalQty,total), for: .normal)
             }
             
         }else{
@@ -117,6 +115,8 @@ extension ViewController: ProductCartItemDelegate {
       
     }
     
+    // MARK:-  Validation while adding item to cart
+
     func limitOrderCalculation(product:Product, qty:Int) -> Int{
         var limitQty: Int = 0
         if(product.stockAmount != -1 && product.max_per_order != -1){
