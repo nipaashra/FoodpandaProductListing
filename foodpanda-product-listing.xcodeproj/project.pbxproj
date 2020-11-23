@@ -17,6 +17,8 @@
 		18686C8A25696F8300BE19B8 /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = 18686C8925696F8300BE19B8 /* Products.json */; };
 		18686C8C256972BC00BE19B8 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C8B256972BC00BE19B8 /* Cart.swift */; };
 		18686C8E2569731400BE19B8 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18686C8D2569731400BE19B8 /* CartItem.swift */; };
+		189778D6256B9F2F002BCE51 /* CartItemTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189778D5256B9F2F002BCE51 /* CartItemTestCase.swift */; };
+		18E544A9256B79BB00778AF5 /* ProductsTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E544A8256B79BB00778AF5 /* ProductsTestCase.swift */; };
 		18EA968C256A161B00207D3F /* NAUIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA968B256A161B00207D3F /* NAUIViewControllerExtension.swift */; };
 		18EA968F256A16B600207D3F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA968E256A16B600207D3F /* Constant.swift */; };
 		45C647907F7AA107B11A0775 /* Pods_foodpanda_product_listingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAE53FEB75A349B03D7273A /* Pods_foodpanda_product_listingTests.framework */; };
@@ -25,7 +27,6 @@
 		99C116982547C6EA00E14369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C116962547C6EA00E14369 /* Main.storyboard */; };
 		99C1169A2547C6EC00E14369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C116992547C6EC00E14369 /* Assets.xcassets */; };
 		99C1169D2547C6EC00E14369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C1169B2547C6EC00E14369 /* LaunchScreen.storyboard */; };
-		99C116A82547C6EC00E14369 /* foodpanda_product_listingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C116A72547C6EC00E14369 /* foodpanda_product_listingTests.swift */; };
 		99C116B32547C6EC00E14369 /* foodpanda_product_listingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C116B22547C6EC00E14369 /* foodpanda_product_listingUITests.swift */; };
 		F96E6D57DFF00B745DD83D7F /* Pods_foodpanda_product_listing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907D0B2BE9D22466DD528378 /* Pods_foodpanda_product_listing.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,8 @@
 		18686C8925696F8300BE19B8 /* Products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
 		18686C8B256972BC00BE19B8 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		18686C8D2569731400BE19B8 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		189778D5256B9F2F002BCE51 /* CartItemTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemTestCase.swift; sourceTree = "<group>"; };
+		18E544A8256B79BB00778AF5 /* ProductsTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTestCase.swift; sourceTree = "<group>"; };
 		18EA968B256A161B00207D3F /* NAUIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAUIViewControllerExtension.swift; sourceTree = "<group>"; };
 		18EA968E256A16B600207D3F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		18FCD3626525CBB03A27E0C4 /* Pods-foodpanda-product-listing-foodpanda-product-listingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodpanda-product-listing-foodpanda-product-listingUITests.debug.xcconfig"; path = "Target Support Files/Pods-foodpanda-product-listing-foodpanda-product-listingUITests/Pods-foodpanda-product-listing-foodpanda-product-listingUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,7 +76,6 @@
 		99C1169C2547C6EC00E14369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99C1169E2547C6EC00E14369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99C116A32547C6EC00E14369 /* foodpanda-product-listingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "foodpanda-product-listingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		99C116A72547C6EC00E14369 /* foodpanda_product_listingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodpanda_product_listingTests.swift; sourceTree = "<group>"; };
 		99C116A92547C6EC00E14369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99C116AE2547C6EC00E14369 /* foodpanda-product-listingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "foodpanda-product-listingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C116B22547C6EC00E14369 /* foodpanda_product_listingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodpanda_product_listingUITests.swift; sourceTree = "<group>"; };
@@ -230,7 +232,8 @@
 		99C116A62547C6EC00E14369 /* foodpanda-product-listingTests */ = {
 			isa = PBXGroup;
 			children = (
-				99C116A72547C6EC00E14369 /* foodpanda_product_listingTests.swift */,
+				18E544A8256B79BB00778AF5 /* ProductsTestCase.swift */,
+				189778D5256B9F2F002BCE51 /* CartItemTestCase.swift */,
 				99C116A92547C6EC00E14369 /* Info.plist */,
 			);
 			path = "foodpanda-product-listingTests";
@@ -335,6 +338,7 @@
 					};
 					99C116A22547C6EC00E14369 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1120;
 						TestTargetID = 99C1168C2547C6EA00E14369;
 					};
 					99C116AD2547C6EC00E14369 = {
@@ -518,7 +522,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C116A82547C6EC00E14369 /* foodpanda_product_listingTests.swift in Sources */,
+				189778D6256B9F2F002BCE51 /* CartItemTestCase.swift in Sources */,
+				18E544A9256B79BB00778AF5 /* ProductsTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,9 +731,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "foodpanda-product-listingTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -736,6 +742,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dh.foodpanda-product-listingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodpanda-product-listing.app/foodpanda-product-listing";
@@ -748,9 +755,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "foodpanda-product-listingTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -771,6 +779,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "foodpanda-product-listingUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -791,6 +800,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "foodpanda-product-listingUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -143,7 +143,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="IxP-g8-9Jz"/>
                                 </constraints>
-                                <state key="normal" title="Total price : $0">
+                                <state key="normal" title="Total qty: 0   Total price : $0">
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>

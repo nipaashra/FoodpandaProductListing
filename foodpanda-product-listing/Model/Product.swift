@@ -10,12 +10,12 @@ import Foundation
 
 struct Product: Codable, Equatable {
     static var shared: [Product]?
-    var id: Int?
-    var name: String?
-    var price: Float?
-    var image_url: String?
-    var stockAmount: Int?
-    var max_per_order: Int?
+    var id: Int
+    var name: String
+    var price: Float
+    var image_url: String
+    var stockAmount: Int
+    var max_per_order: Int
 }
 
 extension Product {

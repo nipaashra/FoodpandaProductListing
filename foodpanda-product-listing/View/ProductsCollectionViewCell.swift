@@ -33,8 +33,8 @@ class ProductsCollectionViewCell: UICollectionViewCell {
             let url = URL(string: productsData?.image_url ?? "")
             self.imgProduct.sd_setImage(with: url)
             self.imgProduct.contentMode = .scaleToFill
+            self.btnLess.isEnabled = qty > 0
         }
-        
     }
 
     override init(frame: CGRect) {
@@ -51,15 +51,11 @@ class ProductsCollectionViewCell: UICollectionViewCell {
         if qty > 0 {
             qty -= 1
         }
-//        btnLess.isEnabled = qty > 0
-//        self.btnQty.text = String(describing: qty)
         self.delegate?.updateCartItem(indexRow: sender.tag, qty: qty)
     }
     
     @IBAction func btnAddClicked(_ sender: UIButton) {
         qty += 1
-//        btnLess.isEnabled = qty > 0
-//        self.btnQty.text = String(describing: qty)
         self.delegate?.updateCartItem(indexRow: sender.tag, qty: qty)
     }
    

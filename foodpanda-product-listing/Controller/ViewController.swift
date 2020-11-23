@@ -97,13 +97,16 @@ extension ViewController: ProductCartItemDelegate {
                     let cartItem = cart?.items[index]
                     cartItem?.qty = qty
                     guard let total = cart?.total else { return }
-                    self.btnTotalPrice.setTitle(String(format: "Total price: $%.2f", total), for: .normal)
+                    guard let totalQty = cart?.totalQty else { return }
+
+                    self.btnTotalPrice.setTitle(String(format: "Total qty:%d   Total price: $%.2f", totalQty,total), for: .normal)
                 }
             }else{
                 //Add cart item with product
                 cart?.updateCart(with: product)
                 guard let total = cart?.total else { return }
-                self.btnTotalPrice.setTitle(String(format: "Total price: $%.2f", total), for: .normal)
+                guard let totalQty = cart?.totalQty else { return }
+                self.btnTotalPrice.setTitle(String(format: "Total qty:%d   Total price: $%.2f", totalQty,total), for: .normal)
             }
             
         }else{
@@ -116,23 +119,23 @@ extension ViewController: ProductCartItemDelegate {
     
     func limitOrderCalculation(product:Product, qty:Int) -> Int{
         var limitQty: Int = 0
-        if(product.stockAmount! != -1 && product.max_per_order! != -1){
-            if(product.stockAmount! < product.max_per_order!){
-                limitQty = product.stockAmount!
+        if(product.stockAmount != -1 && product.max_per_order != -1){
+            if(product.stockAmount < product.max_per_order){
+                limitQty = product.stockAmount
                 errorMsgType = .stockAmount
-            }else if(product.max_per_order! < product.stockAmount!){
-                limitQty = product.max_per_order!
+            }else if(product.max_per_order < product.stockAmount){
+                limitQty = product.max_per_order
                 errorMsgType = .maxOrder
             }else{
-                limitQty = product.stockAmount!
+                limitQty = product.stockAmount
                 errorMsgType = .equalstockandmaxvalue
             }
-        }else if(product.stockAmount! == -1 && product.max_per_order! != -1){
-            limitQty = product.max_per_order!
+        }else if(product.stockAmount == -1 && product.max_per_order != -1){
+            limitQty = product.max_per_order
             errorMsgType = .maxOrder
         }
-        else if(product.max_per_order! == -1 && product.stockAmount! != -1){
-            limitQty = product.stockAmount!
+        else if(product.max_per_order == -1 && product.stockAmount != -1){
+            limitQty = product.stockAmount
             errorMsgType = .stockAmount
         }else{
             limitQty = qty

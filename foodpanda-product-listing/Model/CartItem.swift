@@ -14,7 +14,7 @@ class CartItem: NSObject {
     
     var subTotal : Float {
         get {
-            return (product.price ?? 0.0) * Float(qty)
+            return (product.price) * Float(qty)
         }
     }
     
